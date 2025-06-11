@@ -48,7 +48,7 @@ const result=(play)=>{
    }
 
    var y = document.getElementById("comp");
-    y.innerHTML = `You choose <img src="images/${play}.png" alt="${play}"> <img src="images/${com}.png" alt="${com}"> is the Computer's move`;
+    y.innerHTML = `You choose <img src="images\\${play}.png" alt="${play}"> <img src="images\\${com}.png" alt="${com}"> is the Computer's move`;
 
     localStorage.setItem('Score', JSON.stringify(score));
 

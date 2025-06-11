@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(45, 47, 49);
+    color: rgb(255, 255, 255);
+}
+
+
+
+#Title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    place-self: center;
+    font-weight: bold;
+}
+
+.buttons{
+    padding: 100px;
+    text-align: center;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+.play-Buttons{
+    padding: 30px;
+    margin: 0px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 5px solid white;
+    color: aliceblue;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+
+
+.reset-button{
+    marign:auto;
+    background-color: azure;
+    font-size: 20px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+p{
+    margin: 50px;
+}
+.textContents{
+    text-align: center;
+}
